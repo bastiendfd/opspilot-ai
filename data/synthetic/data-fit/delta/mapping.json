@@ -1,0 +1,68 @@
+{
+  "pack_name": "delta",
+  "scenarios": {
+    "actual": {
+      "file": "delta_actual.xlsx",
+      "sheet_name": "Finance_Data",
+      "column_mapping": {
+        "transaction_id": "Ref",
+        "scenario": "Version",
+        "period": "YYYY_MM",
+        "posting_date": "Date",
+        "amount": "Value",
+        "currency": "Currency Code",
+        "account": "Account Code",
+        "account_name": "Account Label",
+        "cost_center": "Responsibility Unit",
+        "business_unit": "Entity",
+        "material": "Product",
+        "supplier": "Supplier Name",
+        "purchase_order": "Purchasing Ref",
+        "po_created_date": "PO Raised",
+        "forecast_freeze_date": "Plan Cutoff"
+      }
+    },
+    "budget": {
+      "file": "delta_budget.xlsx",
+      "sheet_name": "Finance_Data",
+      "column_mapping": {
+        "transaction_id": "Ref",
+        "scenario": "Version",
+        "period": "YYYY_MM",
+        "posting_date": "Date",
+        "amount": "Value",
+        "currency": "Currency Code",
+        "account": "Account Code",
+        "account_name": "Account Label",
+        "cost_center": "Responsibility Unit",
+        "business_unit": "Entity",
+        "material": "Product",
+        "supplier": "Supplier Name",
+        "purchase_order": "Purchasing Ref",
+        "po_created_date": "PO Raised",
+        "forecast_freeze_date": "Plan Cutoff"
+      }
+    },
+    "forecast": {
+      "file": "delta_forecast.xlsx",
+      "sheet_name": "Finance_Data",
+      "column_mapping": {
+        "transaction_id": "Ref",
+        "scenario": "Version",
+        "period": "YYYY_MM",
+        "posting_date": "Date",
+        "amount": "Value",
+        "currency": "Currency Code",
+        "account": "Account Code",
+        "account_name": "Account Label",
+        "cost_center": "Responsibility Unit",
+        "business_unit": "Entity",
+        "material": "Product",
+        "supplier": "Supplier Name",
+        "purchase_order": "Purchasing Ref",
+        "po_created_date": "PO Raised",
+        "forecast_freeze_date": "Plan Cutoff"
+      }
+    }
+  }
+}

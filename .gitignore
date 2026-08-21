@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and local data
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Uploaded or generated customer-like files (keep only explicitly approved synthetic fixtures)
+data/uploads/
+data/local/

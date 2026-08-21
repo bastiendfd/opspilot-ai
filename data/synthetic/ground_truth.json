@@ -1,0 +1,63 @@
+{
+  "company": {
+    "name": "NOVA INDUSTRIES GmbH",
+    "location": "Hamburg, Germany",
+    "revenue_eur_approx": 120000000,
+    "employees": 450,
+    "data_classification": "fully synthetic independent demo data"
+  },
+  "clean_demo": {
+    "period": "2026-06",
+    "expected_actual_total_eur": 2552320,
+    "expected_budget_total_eur": 2368000,
+    "expected_forecast_total_eur": 2400000,
+    "expected_actual_vs_budget_variance_eur": 184320,
+    "expected_actual_vs_budget_variance_percent": 7.7838541667
+  },
+  "anomalies": [
+    {
+      "id": "GT-01",
+      "file": "Actual.xlsx / Budget.xlsx",
+      "type": "material external consulting overspend",
+      "expected": "Account 640100 / Cost Center 4130: Actual €400,000, Budget €267,960, variance +€132,040.",
+      "evidence": "48 Actual source records and one Budget source record."
+    },
+    {
+      "id": "GT-02",
+      "file": "Actual.xlsx",
+      "type": "post-forecast-freeze purchase-order activity",
+      "expected": "47 consulting transactions have po_created_date after forecast_freeze_date and total €96,200.",
+      "interpretation_limit": "Timing is evidence of association, not proof of causality."
+    },
+    {
+      "id": "GT-03",
+      "file": "Actual_quality_issues.xlsx",
+      "type": "duplicate transaction",
+      "expected": "duplicate_transaction_id blocking validation finding."
+    },
+    {
+      "id": "GT-04",
+      "file": "Actual_quality_issues.xlsx",
+      "type": "missing cost center",
+      "expected": "missing_required_value blocking validation finding."
+    },
+    {
+      "id": "GT-05",
+      "file": "Actual_quality_issues.xlsx",
+      "type": "currency mismatch",
+      "expected": "inconsistent_currency blocking validation finding."
+    },
+    {
+      "id": "GT-06",
+      "file": "Forecast_mapping_issue.xlsx",
+      "type": "forecast mapping issue",
+      "expected": "UNMAPPED account value available for mapping-validation extension; not yet a tested blocking rule."
+    },
+    {
+      "id": "GT-07",
+      "file": "not yet generated",
+      "type": "production-volume decline",
+      "expected": "Deferred until the finance ingestion/reconciliation slice is stable."
+    }
+  ]
+}

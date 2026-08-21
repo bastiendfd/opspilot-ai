@@ -1,0 +1,68 @@
+{
+  "pack_name": "charlie",
+  "scenarios": {
+    "actual": {
+      "file": "charlie_actual.xlsx",
+      "sheet_name": "Buchungen",
+      "column_mapping": {
+        "transaction_id": "Belegnummer",
+        "scenario": "Szenario",
+        "period": "Buchungsmonat",
+        "posting_date": "Buchungsdatum",
+        "amount": "Wert EUR",
+        "currency": "Währung",
+        "account": "Sachkonto",
+        "account_name": "Kontobezeichnung",
+        "cost_center": "Kostenstelle",
+        "business_unit": "Geschäftsbereich",
+        "material": "Materialnummer",
+        "supplier": "Lieferant",
+        "purchase_order": "Bestellung",
+        "po_created_date": "Bestelldatum",
+        "forecast_freeze_date": "Forecast-Stichtag"
+      }
+    },
+    "budget": {
+      "file": "charlie_budget.xlsx",
+      "sheet_name": "Buchungen",
+      "column_mapping": {
+        "transaction_id": "Belegnummer",
+        "scenario": "Szenario",
+        "period": "Buchungsmonat",
+        "posting_date": "Buchungsdatum",
+        "amount": "Wert EUR",
+        "currency": "Währung",
+        "account": "Sachkonto",
+        "account_name": "Kontobezeichnung",
+        "cost_center": "Kostenstelle",
+        "business_unit": "Geschäftsbereich",
+        "material": "Materialnummer",
+        "supplier": "Lieferant",
+        "purchase_order": "Bestellung",
+        "po_created_date": "Bestelldatum",
+        "forecast_freeze_date": "Forecast-Stichtag"
+      }
+    },
+    "forecast": {
+      "file": "charlie_forecast.xlsx",
+      "sheet_name": "Buchungen",
+      "column_mapping": {
+        "transaction_id": "Belegnummer",
+        "scenario": "Szenario",
+        "period": "Buchungsmonat",
+        "posting_date": "Buchungsdatum",
+        "amount": "Wert EUR",
+        "currency": "Währung",
+        "account": "Sachkonto",
+        "account_name": "Kontobezeichnung",
+        "cost_center": "Kostenstelle",
+        "business_unit": "Geschäftsbereich",
+        "material": "Materialnummer",
+        "supplier": "Lieferant",
+        "purchase_order": "Bestellung",
+        "po_created_date": "Bestelldatum",
+        "forecast_freeze_date": "Forecast-Stichtag"
+      }
+    }
+  }
+}

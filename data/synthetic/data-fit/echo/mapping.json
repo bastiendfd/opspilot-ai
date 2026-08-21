@@ -1,0 +1,68 @@
+{
+  "pack_name": "echo",
+  "scenarios": {
+    "actual": {
+      "file": "echo_actual.xlsx",
+      "sheet_name": "Controle_Gestion",
+      "column_mapping": {
+        "transaction_id": "Pièce",
+        "scenario": "Scénario",
+        "period": "Période",
+        "posting_date": "Date comptable",
+        "amount": "Montant",
+        "currency": "Devise",
+        "account": "Compte GL",
+        "account_name": "Libellé compte",
+        "cost_center": "Centre de coût",
+        "business_unit": "Unité",
+        "material": "Article",
+        "supplier": "Fournisseur",
+        "purchase_order": "Commande",
+        "po_created_date": "Date commande",
+        "forecast_freeze_date": "Gel prévision"
+      }
+    },
+    "budget": {
+      "file": "echo_budget.xlsx",
+      "sheet_name": "Controle_Gestion",
+      "column_mapping": {
+        "transaction_id": "Pièce",
+        "scenario": "Scénario",
+        "period": "Période",
+        "posting_date": "Date comptable",
+        "amount": "Montant",
+        "currency": "Devise",
+        "account": "Compte GL",
+        "account_name": "Libellé compte",
+        "cost_center": "Centre de coût",
+        "business_unit": "Unité",
+        "material": "Article",
+        "supplier": "Fournisseur",
+        "purchase_order": "Commande",
+        "po_created_date": "Date commande",
+        "forecast_freeze_date": "Gel prévision"
+      }
+    },
+    "forecast": {
+      "file": "echo_forecast.xlsx",
+      "sheet_name": "Controle_Gestion",
+      "column_mapping": {
+        "transaction_id": "Pièce",
+        "scenario": "Scénario",
+        "period": "Période",
+        "posting_date": "Date comptable",
+        "amount": "Montant",
+        "currency": "Devise",
+        "account": "Compte GL",
+        "account_name": "Libellé compte",
+        "cost_center": "Centre de coût",
+        "business_unit": "Unité",
+        "material": "Article",
+        "supplier": "Fournisseur",
+        "purchase_order": "Commande",
+        "po_created_date": "Date commande",
+        "forecast_freeze_date": "Gel prévision"
+      }
+    }
+  }
+}

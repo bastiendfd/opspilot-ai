@@ -1,0 +1,68 @@
+{
+  "pack_name": "bravo",
+  "scenarios": {
+    "actual": {
+      "file": "bravo_actual.xlsx",
+      "sheet_name": "GL Export",
+      "column_mapping": {
+        "transaction_id": "Document No",
+        "scenario": "Scenario",
+        "period": "Fiscal Month",
+        "posting_date": "Posting Date",
+        "amount": "Booked EUR",
+        "currency": "Curr.",
+        "account": "G/L",
+        "account_name": "G/L Description",
+        "cost_center": "Cost centre",
+        "business_unit": "Business Unit",
+        "material": "Material",
+        "supplier": "Vendor",
+        "purchase_order": "PO Number",
+        "po_created_date": "PO Created",
+        "forecast_freeze_date": "Forecast Freeze"
+      }
+    },
+    "budget": {
+      "file": "bravo_budget.xlsx",
+      "sheet_name": "GL Export",
+      "column_mapping": {
+        "transaction_id": "Document No",
+        "scenario": "Scenario",
+        "period": "Fiscal Month",
+        "posting_date": "Posting Date",
+        "amount": "Booked EUR",
+        "currency": "Curr.",
+        "account": "G/L",
+        "account_name": "G/L Description",
+        "cost_center": "Cost centre",
+        "business_unit": "Business Unit",
+        "material": "Material",
+        "supplier": "Vendor",
+        "purchase_order": "PO Number",
+        "po_created_date": "PO Created",
+        "forecast_freeze_date": "Forecast Freeze"
+      }
+    },
+    "forecast": {
+      "file": "bravo_forecast.xlsx",
+      "sheet_name": "GL Export",
+      "column_mapping": {
+        "transaction_id": "Document No",
+        "scenario": "Scenario",
+        "period": "Fiscal Month",
+        "posting_date": "Posting Date",
+        "amount": "Booked EUR",
+        "currency": "Curr.",
+        "account": "G/L",
+        "account_name": "G/L Description",
+        "cost_center": "Cost centre",
+        "business_unit": "Business Unit",
+        "material": "Material",
+        "supplier": "Vendor",
+        "purchase_order": "PO Number",
+        "po_created_date": "PO Created",
+        "forecast_freeze_date": "Forecast Freeze"
+      }
+    }
+  }
+}

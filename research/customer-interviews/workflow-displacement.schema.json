@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OpsPilot workflow displacement record",
+  "type": "object",
+  "required": ["participant_id", "is_real_investigation", "frequency", "current_stack_adequate", "manual_reconciliation"],
+  "properties": {
+    "participant_id": {"type": "string", "description": "Anonymised identifier only"},
+    "is_real_investigation": {"type": "boolean"},
+    "frequency": {"type": "string"},
+    "current_stack_adequate": {"enum": ["yes", "no", "unclear"]},
+    "manual_reconciliation": {"enum": ["substantial", "limited", "none", "unclear"]},
+    "manual_minutes": {"type": ["number", "null"], "minimum": 0},
+    "source_traceability_gap": {"type": "string"},
+    "data_fit_risk": {"enum": ["low", "medium", "high", "unclear"]},
+    "security_feasibility": {"enum": ["low", "medium", "high", "unclear"]},
+    "economic_buyer_identified": {"type": "boolean"},
+    "paid_test_path": {"enum": ["credible", "unclear", "none"]},
+    "direct_quotes": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

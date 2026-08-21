@@ -1,0 +1,68 @@
+{
+  "pack_name": "alpha",
+  "scenarios": {
+    "actual": {
+      "file": "alpha_actual.xlsx",
+      "sheet_name": "Transactions",
+      "column_mapping": {
+        "transaction_id": "transaction_id",
+        "scenario": "scenario",
+        "period": "period",
+        "posting_date": "posting_date",
+        "amount": "amount",
+        "currency": "currency",
+        "account": "account",
+        "account_name": "account_name",
+        "cost_center": "cost_center",
+        "business_unit": "business_unit",
+        "material": "material",
+        "supplier": "supplier",
+        "purchase_order": "purchase_order",
+        "po_created_date": "po_created_date",
+        "forecast_freeze_date": "forecast_freeze_date"
+      }
+    },
+    "budget": {
+      "file": "alpha_budget.xlsx",
+      "sheet_name": "Transactions",
+      "column_mapping": {
+        "transaction_id": "transaction_id",
+        "scenario": "scenario",
+        "period": "period",
+        "posting_date": "posting_date",
+        "amount": "amount",
+        "currency": "currency",
+        "account": "account",
+        "account_name": "account_name",
+        "cost_center": "cost_center",
+        "business_unit": "business_unit",
+        "material": "material",
+        "supplier": "supplier",
+        "purchase_order": "purchase_order",
+        "po_created_date": "po_created_date",
+        "forecast_freeze_date": "forecast_freeze_date"
+      }
+    },
+    "forecast": {
+      "file": "alpha_forecast.xlsx",
+      "sheet_name": "Transactions",
+      "column_mapping": {
+        "transaction_id": "transaction_id",
+        "scenario": "scenario",
+        "period": "period",
+        "posting_date": "posting_date",
+        "amount": "amount",
+        "currency": "currency",
+        "account": "account",
+        "account_name": "account_name",
+        "cost_center": "cost_center",
+        "business_unit": "business_unit",
+        "material": "material",
+        "supplier": "supplier",
+        "purchase_order": "purchase_order",
+        "po_created_date": "po_created_date",
+        "forecast_freeze_date": "forecast_freeze_date"
+      }
+    }
+  }
+}
